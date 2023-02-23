@@ -1,0 +1,39 @@
+{
+  // Theme
+  "workbench.colorTheme": "Community Material Theme Ocean",
+
+  // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    //"editor.defaultFormatter": null
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    //"editor.defaultFormatter": null
+  },
+  "javascript.validate.enable": false, //disable all built-in syntax checking
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  // emmet
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace,DejaVu Sans Mono",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  "debug.console.fontFamily": "'Firo Code'",
+  "editor.inlayHints.fontFamily": "Fira Code, Operator Mono",
+  "editor.codeLensFontFamily": "Fira Code, Operator Mono",
+  "editor.fontSize": 12,
+  "files.autoSave": "onWindowChange"
+}
