@@ -12,9 +12,11 @@ export default function SignupForm() {
   const [password, setPassword] = useState("");
   const [confirmpassword, setConfirmpassword] = useState("");
   const [agree, setAgree] = useState("");
+
   const [error, setError] = useState("");
   const [loading, setLoading] = useState("");
-  const history = useNavigate();
+
+  const navigate = useNavigate();
   const { signup } = useAuth();
 
   async function handleSubmit(e) {
@@ -27,7 +29,7 @@ export default function SignupForm() {
       setError("");
       setLoading(true);
       await signup(email, password, username);
-      history.push("/");
+      navigate("/");
     } catch (err) {
       console.log(err);
       setLoading(false);
@@ -43,7 +45,7 @@ export default function SignupForm() {
         icon="person"
         required
         value={username}
-        onchange={(e) => setUsername(e.target.value)}
+        onChange={(e) => setUsername(e.target.value)}
       />
       <TextInput
         type="text"
@@ -51,7 +53,7 @@ export default function SignupForm() {
         icon="alternate_email"
         value={email}
         required
-        onchange={(e) => setEmail(e.target.value)}
+        onChange={(e) => setEmail(e.target.value)}
       />
       <TextInput
         type="password"
@@ -59,7 +61,7 @@ export default function SignupForm() {
         icon="lock"
         value={password}
         required
-        onchange={(e) => setPassword(e.target.value)}
+        onChange={(e) => setPassword(e.target.value)}
       />
       <TextInput
         type="password"
@@ -67,13 +69,13 @@ export default function SignupForm() {
         icon="lock_clock"
         value={confirmpassword}
         required
-        onchange={(e) => setConfirmpassword(e.target.value)}
+        onChange={(e) => setConfirmpassword(e.target.value)}
       />
       <Checkbox
         text=" I agree to the Terms &amp; Conditions"
         value={agree}
         required
-        onchange={(e) => setAgree(e.target.value)}
+        onChange={(e) => setAgree(e.target.value)}
       />
       <Button disabled={loading} type="submit">
         <span>Submit Now</span>

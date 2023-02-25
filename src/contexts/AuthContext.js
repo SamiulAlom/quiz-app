@@ -6,12 +6,12 @@ import {
   signOut,
   updateProfile,
 } from "firebase/auth";
-import React, { useEffect, useState } from "react";
+import React, { createContext, useContext, useEffect, useState } from "react";
 import "../firebase";
 
-const AuthContext = React.createContext();
+const AuthContext = createContext();
 export function useAuth() {
-  return useState(AuthContext);
+  return useContext(AuthContext);
 }
 
 export function AuthProvider({ children }) {
