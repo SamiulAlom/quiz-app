@@ -36,8 +36,9 @@ export default function Quiz() {
 
   const [qna, dispatch] = useReducer(reducer, initialState);
   const { currentUser } = useAuth();
-  // eslint-disable-next-line
   const navigate = useNavigate();
+  // eslint-disable-next-line
+  const { state } = navigate;
 
   useEffect(() => {
     dispatch({
@@ -80,8 +81,7 @@ export default function Quiz() {
       [id]: qna,
     });
 
-    navigate({
-      pathname: `/result/${id}`,
+    navigate(`/result/${id}`, {
       state: {
         qna,
       },
