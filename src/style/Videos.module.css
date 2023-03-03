@@ -1,6 +1,8 @@
 .videos {
   width: 100%;
   display: grid;
+  /* display: flex;
+  flex-wrap: wrap; */
   margin: 3rem auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
@@ -10,6 +12,7 @@
 
 @media only screen and (max-width: 600px) {
   .videos {
-    width: 90%;
+    width: 90vw;
+    grid-template-columns: repeat(auto-fit, minmax(90vw, 1fr));
   }
 }
