@@ -1,15 +1,12 @@
-import image from "../assets/images/Title-image/1.png";
 import classes from "../style/Video.module.css";
-export default function Video() {
+export default function Video({ title, id, noq, image }) {
   return (
     <div className={classes.video}>
-      <img src={image} alt="" />
-      <p style={{ fontStyle: "italic" }}>
-        Test your skill on Basic C programming
-      </p>
+      <img src={image} alt={title} />
+      <p style={{ fontStyle: "italic" }}>{title}</p>
       <div className={classes.qmeta}>
-        <p>10 Questions</p>
-        <p>Score : Not taken yet</p>
+        <p>{noq} Questions</p>
+        <p>Total Points :{noq * 10}</p>
       </div>
     </div>
   );

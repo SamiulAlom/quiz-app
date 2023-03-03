@@ -3,83 +3,96 @@
     "1": {
       "youtubeID": "CB",
       "title": "Test your knowledge of basic C programming",
-      "noq": 10
+      "noq": 10,
+      "image": "https://i.ibb.co/xJ4ZKtT/1.png"
     },
     "2": {
       "youtubeID": "CI",
       "title": "Test your knowledge of intermediate C programming",
-      "noq": 10
+      "noq": 10,
+      "image": "https://i.ibb.co/1d6yXT4/2.png"
     },
     "3": {
       "youtubeID": "CA",
       "title": "Test your knowledge of advance C programming",
-      "noq": 10
+      "noq": 10,
+      "image": "https://i.ibb.co/qndZZ3g/3.png"
     },
     "4": {
       "youtubeID": "CPB",
       "title": "Test your knowledge of basic C++ programming",
-      "noq": 10
+      "noq": 10,
+      "image": "https://i.ibb.co/C5GKZBx/4.png"
     },
     "5": {
       "youtubeID": "CPI",
       "title": "Test your knowledge of intermediate C++ programming",
-      "noq": 10
+      "noq": 10,
+      "image": "https://i.ibb.co/R9yRwBq/5.png"
     },
     "6": {
       "youtubeID": "CPA",
       "title": "Test your knowledge of advance C++ programming",
-      "noq": 10
+      "noq": 7,
+      "image": "https://i.ibb.co/mRcpDxD/6.png"
     },
     "7": {
       "youtubeID": "JB",
       "title": "Test your knowledge of basic JAVA programming",
-      "noq": 10
+      "noq": 7,
+      "image": "https://i.ibb.co/pQqkGXm/7.png"
     },
     "8": {
       "youtubeID": "PB",
       "title": "Test your knowledge of basic PYTHON programming",
-      "noq": 10
+      "noq": 6,
+      "image": "https://i.ibb.co/PcWfLRp/8.png"
     },
     "9": {
       "youtubeID": "DSA",
       "title": "Test your knowledge of DATA STRUCTURE and ALGORITHM",
-      "noq": 10
+      "noq": 7,
+      "image": "https://i.ibb.co/dGFp5FH/9.png"
     },
     "10": {
       "youtubeID": "JSB",
       "title": "Test your knowledge of basic JAVASCRIPT programming",
-      "noq": 10
+      "noq": 5,
+      "image": "https://i.ibb.co/1GrVty5/10.png"
     },
     "11": {
       "youtubeID": "JSI",
       "title": "Test your knowledge of intermediate JAVASCRIPT programming",
-      "noq": 10
+      "noq": 5,
+      "image": "https://i.ibb.co/Nn93Dx3/11.png"
     },
     "12": {
       "youtubeID": "JSA",
       "title": "Test your knowledge of advance JAVASCRIPT programming",
-      "noq": 10
+      "noq": 5,
+      "image": "https://i.ibb.co/cyXLgQ2/12.png"
     },
     "13": {
       "youtubeID": "CS",
       "title": "More test will be available soon...",
-      "noq": 0
+      "noq": 0,
+      "image": "https://i.ibb.co/8Bs4pkn/13.png"
     }
   },
   "quiz": {
     "CB": {
       "questions": [
         {
-          "title": "What is the correct syntax for declaring an integer variable named 'num'?",
+          "title": "What is the correct syntax for declaring an integer variable named 'num' ?",
           "options": [
             {
               "title": "int num"
             },
             {
-              "title": " integer num"
+              "title": "integer num"
             },
             {
-              "title": " int num()"
+              "title": "int num()"
             },
             {
               "title": "num int"
@@ -87,971 +100,1593 @@
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following arithmetic operators performs exponentiation in C?",
           "options": [
             {
-              "title": "September 1998"
+              "title": " + "
             },
             {
-              "title": "October 1999"
+              "title": " - "
             },
             {
-              "title": "September 1995"
+              "title": " * "
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": " ** "
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the output of the following code snippet ? [int a = 5; printf(%d, ++a);]  ",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "5"
             },
             {
-              "title": "Netscape"
+              "title": "6"
             },
             {
-              "title": "Jack Ma"
+              "title": "Error"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": " Undefined behavior"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which of the following is not a valid C data type?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "float"
             },
             {
-              "title": "ES2021"
+              "title": "double"
             },
             {
-              "title": "ES6"
+              "title": "decimal"
             },
             {
-              "title": "ES7"
+              "title": "char"
+            }
+          ]
+        },
+        {
+          "title": "What is the correct way to declare a constant integer in C?",
+          "options": [
+            {
+              "title": "const int num = 5;"
             },
             {
-              "title": "ES8"
+              "title": "const int = 5;"
             },
             {
-              "title": "ES2022"
+              "title": " int const num = 5;"
             },
             {
-              "title": "ES21"
+              "title": " int num const = 5;"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int a = 10; while(a > 0) {printf(%d, a); a-- }]",
+          "options": [
+            {
+              "title": "10 9 8 7 6 5 4 3 2 1"
             },
             {
-              "title": "ES3"
+              "title": "1 2 3 4 5 6 7 8 9 10"
             },
             {
-              "title": "ES9"
+              "title": "10 8 6 4 2"
             },
             {
-              "title": "ES2020"
+              "title": "Error"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid way to initialize an array in C? ",
+          "options": [
+            {
+              "title": " int arr[5] = {1, 2, 3, 4, 5};"
+            },
+            {
+              "title": "int arr[] = {1, 2, 3};"
+            },
+            {
+              "title": "int arr[3] = {1, 2};"
+            },
+            {
+              "title": "int arr[3] = {0};"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [for(int i=0; i<=5; i++) { if(i%2 == 0) continue; printf(%d, i); }]",
+          "options": [
+            {
+              "title": "0 2 4"
+            },
+            {
+              "title": "1 3 5"
+            },
+            {
+              "title": " 1 3"
+            },
+            {
+              "title": "2 4"
+            }
+          ]
+        },
+        {
+          "title": "What is the correct syntax for defining a function named 'sum' that takes two integer arguments and returns their sum?",
+          "options": [
+            {
+              "title": "int sum(int a, int b) { return a+b; }"
+            },
+            {
+              "title": "sum(int a, int b) { return a+b; }"
+            },
+            {
+              "title": "int sum(int a+b) { return a+b; }"
+            },
+            {
+              "title": " int sum(a, b) { return a+b; }"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 10; if(a < b) { printf(%d, a);} else { printf(%d, b);} ]",
+          "options": [
+            {
+              "title": " 5"
+            },
+            {
+              "title": "10"
+            },
+            {
+              "title": "15"
+            },
+            {
+              "title": "Error"
             }
           ]
         }
       ]
     },
-    "5Xy-t8k_M4A": {
+    "CI": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following is not a valid C data type?",
           "options": [
             {
-              "title": "with var"
+              "title": "int"
             },
             {
-              "title": "with let"
+              "title": "float"
             },
             {
-              "title": "with const"
+              "title": "char"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "double int"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 3; printf(%d, a + b * 2);]",
           "options": [
             {
-              "title": "September 1998"
+              "title": "11"
             },
             {
-              "title": "October 1999"
+              "title": "13"
             },
             {
-              "title": "September 1995"
+              "title": "16"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "21"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following operators has the highest precedence in C? ",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "+"
             },
             {
-              "title": "Netscape"
+              "title": "%"
             },
             {
-              "title": "Jack Ma"
+              "title": "&&"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "="
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the output of the following code snippet? [ int a = 10; if(a > 5 && a < 15) { printf( Valid);} else { printf(Invalid);}]",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Valid"
             },
             {
-              "title": "ES2021"
+              "title": "Invalid"
             },
             {
-              "title": "ES6"
+              "title": "Error"
             },
             {
-              "title": "ES7"
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is the correct syntax for declaring an array in C?",
+          "options": [
+            {
+              "title": " int a[10];"
             },
             {
-              "title": "ES8"
+              "title": "a[10] int;"
             },
             {
-              "title": "ES2022"
+              "title": " int []a = {1, 2, 3, 4, 5};"
             },
             {
-              "title": "ES21"
+              "title": " a[] int = {1, 2, 3, 4, 5};"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int x = 5, y = 10; if(x > y) { printf(x is greater than y);} else { printf(y is greater than x);} ]",
+          "options": [
+            {
+              "title": "x is greater than y"
             },
             {
-              "title": "ES3"
+              "title": "y is greater than x"
             },
             {
-              "title": "ES9"
+              "title": "Error"
             },
             {
-              "title": "ES2020"
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid C operator? ",
+          "options": [
+            {
+              "title": "=="
+            },
+            {
+              "title": "+"
+            },
+            {
+              "title": "$"
+            },
+            {
+              "title": "*"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int n = 5; for(int i=0; i<n; i++) { printf(%d , i); } ] ",
+          "options": [
+            {
+              "title": "0 1 2 3 4"
+            },
+            {
+              "title": "1 2 3 4 5"
+            },
+            {
+              "title": "1 3 5 7 9"
+            },
+            {
+              "title": "Error"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid way to initialize a variable in C?",
+          "options": [
+            {
+              "title": "int a = 10;"
+            },
+            {
+              "title": "int a; a = 10;"
+            },
+            {
+              "title": " int a = {10};"
+            },
+            {
+              "title": " int a[10];"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int x = 5; x++; printf(%d, x);]",
+          "options": [
+            {
+              "title": "5"
+            },
+            {
+              "title": "3"
+            },
+            {
+              "title": "6"
+            },
+            {
+              "title": "4"
             }
           ]
         }
       ]
     },
-    "WC-g0JtEIwM": {
+    "CA": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following statements about the static keyword in C is true?",
           "options": [
             {
-              "title": "with var"
+              "title": "The static keyword can only be used with functions."
             },
             {
-              "title": "with let"
+              "title": "The static keyword can be used to create variables with a persistent value."
             },
             {
-              "title": "with const"
+              "title": "The static keyword can be used to limit the scope of a variable to a function."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "The static keyword can be used to declare variables in header files."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following statements about the preprocessor in C is true?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "The preprocessor is responsible for converting C code into machine code."
             },
             {
-              "title": "October 1999"
+              "title": "The preprocessor is a separate program that runs before the compiler."
             },
             {
-              "title": "September 1995"
+              "title": " The preprocessor can be used to define macros and include header files."
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "The preprocessor can be used to declare variables and functions."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the output of the following code snippet? [ int a[] = {10, 20, 30, 40, 50}; int *p1 = &a[1], *p2 = &a[4]; printf(%d, p2 - p1);]",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "3"
             },
             {
-              "title": "Netscape"
+              "title": "4"
             },
             {
-              "title": "Jack Ma"
+              "title": "5"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "2"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the output of the following code snippet? [ int a = 10; if(a > 5 && a < 15) { printf( Valid);} else { printf(Invalid);}]",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Valid"
             },
             {
-              "title": "ES2021"
+              "title": "Invalid"
             },
             {
-              "title": "ES6"
+              "title": "Error"
             },
             {
-              "title": "ES7"
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following statements about pointers in C is true?",
+          "options": [
+            {
+              "title": "Pointers can be used to create self-referential structures like linked lists."
             },
             {
-              "title": "ES8"
+              "title": "Pointers can only be used to access and manipulate primitive data types."
             },
             {
-              "title": "ES2022"
+              "title": "Pointers cannot be used with the const keyword."
             },
             {
-              "title": "ES21"
+              "title": "Pointers are automatically set to NULL when they are declared."
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int a = 10; int *p = &a; *p = *p + 1; printf(%d %d, a, *p); ]",
+          "options": [
+            {
+              "title": "10 10"
             },
             {
-              "title": "ES3"
+              "title": "11 10"
             },
             {
-              "title": "ES9"
+              "title": "11 11"
             },
             {
-              "title": "ES2020"
+              "title": "10 11"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following statements about function pointers in C is true? ",
+          "options": [
+            {
+              "title": "Function pointers store the address of a function."
+            },
+            {
+              "title": "Function pointers can be used to call a function indirectly."
+            },
+            {
+              "title": "Function pointers can be passed as arguments to other functions."
+            },
+            {
+              "title": "All of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 3, c = 2; int *p1 = &a, *p2 = &b, *p3 = &c; *p1 = *p2 + *p3; printf(%d %d %d, a, b, c);] ",
+          "options": [
+            {
+              "title": "5 3 2"
+            },
+            {
+              "title": "3 3 2"
+            },
+            {
+              "title": "5 5 2"
+            },
+            {
+              "title": "3 5 2"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 10; int *ptr = &a; *ptr = 15; ptr = &b; *b = *ptr - 5; printf(%d %d, a, b); ]",
+          "options": [
+            {
+              "title": "15 5"
+            },
+            {
+              "title": "5 5"
+            },
+            {
+              "title": "15 10"
+            },
+            {
+              "title": "5 10"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a correct syntax for a function pointer declaration in C?",
+          "options": [
+            {
+              "title": "int (*fptr) (int a, int b);"
+            },
+            {
+              "title": "(*fptr) int (int a, int b);"
+            },
+            {
+              "title": "int fptr (int a, int b) ();"
+            },
+            {
+              "title": "fptr int (int a, int b) ();"
             }
           ]
         }
       ]
     },
-    "CHnTTzD1pAQ": {
+    "CPB": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is C++?",
           "options": [
             {
-              "title": "with var"
+              "title": "A programming language"
             },
             {
-              "title": "with let"
+              "title": "A markup language"
             },
             {
-              "title": "with const"
+              "title": "A scripting language"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "An operating system"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following is a valid C++ identifier?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "1variable "
             },
             {
-              "title": "October 1999"
+              "title": "variable_1"
             },
             {
-              "title": "September 1995"
+              "title": " variable-1"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "variable 1"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following is not a primitive data type in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "int"
             },
             {
-              "title": "Netscape"
+              "title": "char"
             },
             {
-              "title": "Jack Ma"
+              "title": "string"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "float"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the operator used for assigning a value to a variable in C++?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "="
             },
             {
-              "title": "ES2021"
+              "title": "=="
             },
             {
-              "title": "ES6"
+              "title": "! ="
             },
             {
-              "title": "ES7"
+              "title": "+="
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int x = 5; int y = 10; cout << (x < y); ]",
+          "options": [
+            {
+              "title": "0"
             },
             {
-              "title": "ES8"
+              "title": "1"
             },
             {
-              "title": "ES2022"
+              "title": "5"
             },
             {
-              "title": "ES21"
+              "title": "10"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int i = 0; while (i < 5) { cout << i << ; i++; }",
+          "options": [
+            {
+              "title": "0 1 2 3 4"
             },
             {
-              "title": "ES3"
+              "title": " 1 2 3 4 5"
             },
             {
-              "title": "ES9"
+              "title": "0 1 2 3 4 5 "
             },
             {
-              "title": "ES2020"
+              "title": "1 2 3 4 5 6"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a valid way to declare a C++ function that takes no parameters and returns an integer? ",
+          "options": [
+            {
+              "title": "int myFunction() {}"
+            },
+            {
+              "title": "void myFunction() {}"
+            },
+            {
+              "title": "int myFunction(void) {}"
+            },
+            {
+              "title": "void myFunction(int) {} "
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a valid way to declare an array of integers with 10 elements in C++?",
+          "options": [
+            {
+              "title": " int array(10);"
+            },
+            {
+              "title": " int array[10];"
+            },
+            {
+              "title": " int array{10};"
+            },
+            {
+              "title": " int array(10];"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int myArray[3] = {1, 2, 3}; cout << myArray[1];",
+          "options": [
+            {
+              "title": "1"
+            },
+            {
+              "title": "2"
+            },
+            {
+              "title": "3"
+            },
+            {
+              "title": "0"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int x = 5; int *ptr = &x; cout << *ptr;",
+          "options": [
+            {
+              "title": "5"
+            },
+            {
+              "title": "ptr"
+            },
+            {
+              "title": "&x"
+            },
+            {
+              "title": "None of them"
             }
           ]
         }
       ]
     },
-    "PHy8h0BixKA": {
+    "CPI": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is the difference between pass-by-value and pass-by-reference in C++?",
           "options": [
             {
-              "title": "with var"
+              "title": "Pass-by-value creates a copy of the argument, while pass-by-reference does not."
             },
             {
-              "title": "with let"
+              "title": "Pass-by-reference creates a copy of the argument, while pass-by-value does not."
             },
             {
-              "title": "with const"
+              "title": "Pass-by-value does not allow the function to modify the original argument, while pass-by-reference does."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "Pass-by-reference does not allow the function to modify the original argument, while pass-by-value does."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the difference between a pointer and a reference in C++?",
           "options": [
             {
-              "title": "September 1998"
+              "title": " A pointer can be null, while a reference cannot."
             },
             {
-              "title": "October 1999"
+              "title": "A pointer can be re-assigned, while a reference cannot."
             },
             {
-              "title": "September 1995"
+              "title": "A pointer can be used to iterate over an array, while a reference cannot."
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "All of the above."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is operator overloading in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "Defining a new operator in C++."
             },
             {
-              "title": "Netscape"
+              "title": "Changing the behavior of an existing operator in C++."
             },
             {
-              "title": "Jack Ma"
+              "title": "Both A and B."
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "None of the above."
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is a constructor in C++?",
           "options": [
             {
-              "title": "ES2020"
+              "title": " A member function of a class that is automatically called when an object of the class is created."
             },
             {
-              "title": "ES2021"
+              "title": " A member function of a class that is used to initialize the object's data members."
             },
             {
-              "title": "ES6"
+              "title": "Both A and B."
             },
             {
-              "title": "ES7"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a class and an object in C++?",
+          "options": [
+            {
+              "title": "A class is a blueprint for an object, while an object is an instance of a class."
             },
             {
-              "title": "ES8"
+              "title": "A class is a variable, while an object is a function."
             },
             {
-              "title": "ES2022"
+              "title": "A class is a function, while an object is a variable."
             },
             {
-              "title": "ES21"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is inheritance in C++?",
+          "options": [
+            {
+              "title": "A mechanism that allows a class to inherit properties and behavior from another class."
             },
             {
-              "title": "ES3"
+              "title": "A mechanism that allows a class to override properties and behavior of another class."
             },
             {
-              "title": "ES9"
+              "title": "Both A and B."
             },
             {
-              "title": "ES2020"
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is polymorphism in C++?   ",
+          "options": [
+            {
+              "title": "A mechanism that allows a derived class to have multiple base classes."
+            },
+            {
+              "title": " A mechanism that allows a function to take arguments of different types."
+            },
+            {
+              "title": "A mechanism that allows objects of different classes to be treated as if they were of the same class."
+            },
+            {
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a virtual function and a pure virtual function in C++? ",
+          "options": [
+            {
+              "title": "A virtual function has a default implementation, while a pure virtual function does not."
+            },
+            {
+              "title": "A virtual function can be overridden, while a pure virtual function must be overridden."
+            },
+            {
+              "title": "Both A and B."
+            },
+            {
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a namespace in C++?",
+          "options": [
+            {
+              "title": "A way to group related functions and classes together."
+            },
+            {
+              "title": "A way to avoid naming conflicts between different functions and classes."
+            },
+            {
+              "title": "Both A and B."
+            },
+            {
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a template in C++?",
+          "options": [
+            {
+              "title": "A mechanism that allows a function or class to work with any data type."
+            },
+            {
+              "title": "A mechanism that allows a function or class to work with a specific data type."
+            },
+            {
+              "title": "A mechanism that allows a function or class to work with both specific and unspecified data types."
+            },
+            {
+              "title": "None of the above."
             }
           ]
         }
       ]
     },
-    "2C5834qx0sA": {
+    "CPA": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is the difference between a template class and a regular class in C++?",
           "options": [
             {
-              "title": "with var"
+              "title": "A template class can work with any data type, while a regular class can only work with specific data types."
             },
             {
-              "title": "with let"
+              "title": " A template class is a class that uses templates, while a regular class does not."
             },
             {
-              "title": "with const"
+              "title": "Both A and B."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": " None of the above."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the difference between a template function and a regular function in C++?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "A template function can work with any data type, while a regular function can only work with specific data types."
             },
             {
-              "title": "October 1999"
+              "title": "A template function is a function that uses templates, while a regular function does not."
             },
             {
-              "title": "September 1995"
+              "title": "Both A and B."
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "All of the above."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is an abstract class in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "A class that cannot be instantiated and serves as a base class for other classes."
             },
             {
-              "title": "Netscape"
+              "title": "A class that can be instantiated and serves as a base class for other classes."
             },
             {
-              "title": "Jack Ma"
+              "title": "A class that has no methods."
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "None of the above."
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is a virtual destructor in C++?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "  A destructor that is declared as virtual in a base class."
             },
             {
-              "title": "ES2021"
+              "title": "A destructor that is declared as pure virtual in a base class."
             },
             {
-              "title": "ES6"
+              "title": "Both A and B."
             },
             {
-              "title": "ES7"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a friend function in C++?",
+          "options": [
+            {
+              "title": "A function that is declared in a class and has access to the private and protected members of the class."
             },
             {
-              "title": "ES8"
+              "title": "A function that is declared outside a class but has access to the private and protected members of the class."
             },
             {
-              "title": "ES2022"
+              "title": "A function that is declared as a member of a class but does not have access to the private and protected members of the class."
             },
             {
-              "title": "ES21"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a constant pointer and a pointer to a constant in C++?",
+          "options": [
+            {
+              "title": "A constant pointer cannot be changed, while a pointer to a constant can be changed."
             },
             {
-              "title": "ES3"
+              "title": " A pointer to a constant cannot be changed, while a constant pointer can be changed."
             },
             {
-              "title": "ES9"
+              "title": "Both A and B."
             },
             {
-              "title": "ES2020"
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a move constructor in C++?",
+          "options": [
+            {
+              "title": " A constructor that is used to move an object from one memory location to another."
+            },
+            {
+              "title": " A constructor that is used to create a copy of an object."
+            },
+            {
+              "title": "Both A and B."
+            },
+            {
+              "title": "None of the above."
             }
           ]
         }
       ]
     },
-    "qImH1bFubW4": {
+    "JB": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following is not a primitive data type in Java?",
           "options": [
             {
-              "title": "with var"
+              "title": "boolean"
             },
             {
-              "title": "with let"
+              "title": "char"
             },
             {
-              "title": "with const"
+              "title": "int."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": " string"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the output of the following code snippet? int x = 3; int y = 5; System.out.println(x + y + total);",
           "options": [
             {
-              "title": "September 1998"
+              "title": "8total"
             },
             {
-              "title": "October 1999"
+              "title": "35total"
             },
             {
-              "title": "September 1995"
+              "title": " 53total"
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "total8"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following is a valid way to declare and initialize an array in Java?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "int[] myArray = {1, 2, 3};"
             },
             {
-              "title": "Netscape"
+              "title": "int myArray[] = new int[] {1, 2, 3};"
             },
             {
-              "title": "Jack Ma"
+              "title": "int[] myArray = new int[3]{1, 2, 3};"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich"
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "All of the above"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the correct way to create an instance of a class in Java?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Class myClass = new MyClass;"
             },
             {
-              "title": "ES2021"
+              "title": "MyClass myClass = new MyClass();"
             },
             {
-              "title": "ES6"
+              "title": " myClass = new MyClass();"
             },
             {
-              "title": "ES7"
+              "title": "new MyClass myClass();"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a type of loop in Java?",
+          "options": [
+            {
+              "title": "for loop"
             },
             {
-              "title": "ES8"
+              "title": " while loop"
             },
             {
-              "title": "ES2022"
+              "title": "do-while loop"
             },
             {
-              "title": "ES21"
+              "title": "switch loop"
+            }
+          ]
+        },
+        {
+          "title": "What is the access level of a class member if it is declared as private?",
+          "options": [
+            {
+              "title": "public"
             },
             {
-              "title": "ES3"
+              "title": "protected"
             },
             {
-              "title": "ES9"
+              "title": "private"
             },
             {
-              "title": "ES2020"
+              "title": "default"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a keyword in Java?",
+          "options": [
+            {
+              "title": " if"
+            },
+            {
+              "title": "while"
+            },
+            {
+              "title": "switch"
+            },
+            {
+              "title": "main"
+            }
+          ]
+        }
+      ]
+    },
+    "PB": {
+      "questions": [
+        {
+          "title": "Which of the following is not a primitive data type in Python?",
+          "options": [
+            {
+              "title": "string"
+            },
+            {
+              "title": "char"
+            },
+            {
+              "title": "int."
+            },
+            {
+              "title": "boolean "
+            }
+          ]
+        },
+        {
+          "title": "What is the correct way to create a function in Python?",
+          "options": [
+            {
+              "title": "function myFunction():"
+            },
+            {
+              "title": "def myFunction():"
+            },
+            {
+              "title": "def function myFunction():"
+            },
+            {
+              "title": " function def myFunction():"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a type of loop in Python?",
+          "options": [
+            {
+              "title": "for loop"
+            },
+            {
+              "title": "while loop"
+            },
+            {
+              "title": "do-while loop"
+            },
+            {
+              "title": "All of the above are types of loops in Python"
+            }
+          ]
+        },
+        {
+          "title": "What is the access level of a class member if it is declared as private in Python?",
+          "options": [
+            {
+              "title": "public"
+            },
+            {
+              "title": "protected"
+            },
+            {
+              "title": " private"
+            },
+            {
+              "title": "default"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a keyword in Python?",
+          "options": [
+            {
+              "title": "if"
+            },
+            {
+              "title": " while"
+            },
+            {
+              "title": "switch"
+            },
+            {
+              "title": "for"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? i = 5 print(i) i += 1 print(i)",
+          "options": [
+            {
+              "title": "5 6"
+            },
+            {
+              "title": "6 6"
+            },
+            {
+              "title": "5 5"
+            },
+            {
+              "title": "6 5"
+            }
+          ]
+        }
+      ]
+    },
+    "DSA": {
+      "questions": [
+        {
+          "title": "What is a data structure?",
+          "options": [
+            {
+              "title": " A way to store and organize data"
+            },
+            {
+              "title": "A way to input data"
+            },
+            {
+              "title": "A way to output data"
+            },
+            {
+              "title": "A way to sort data"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is more efficient for inserting and deleting elements?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List"
+            },
+            {
+              "title": "Both are equally efficient"
+            },
+            {
+              "title": " None of the above"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure can be resized dynamically?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List"
+            },
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Queue"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement recursion?",
+          "options": [
+            {
+              "title": "Stack "
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Linked List"
+            },
+            {
+              "title": "Tree"
+            }
+          ]
+        },
+        {
+          "title": "Which algorithm is used to sort elements in ascending order?",
+          "options": [
+            {
+              "title": "Quick sort"
+            },
+            {
+              "title": " Merge sort"
+            },
+            {
+              "title": "Bubble sort"
+            },
+            {
+              "title": "Selection sort"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement a priority queue?",
+          "options": [
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Heap"
+            },
+            {
+              "title": "Linked List"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement a binary tree?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List"
+            },
+            {
+              "title": "heap"
+            },
+            {
+              "title": "stack"
+            }
+          ]
+        }
+      ]
+    },
+    "JSB": {
+      "questions": [
+        {
+          "title": "Which of the following is NOT a primitive data type in JavaScript?",
+          "options": [
+            {
+              "title": "Number"
+            },
+            {
+              "title": "String"
+            },
+            {
+              "title": "Boolean"
+            },
+            {
+              "title": "Object"
+            }
+          ]
+        },
+        {
+          "title": "What is the result of the following code? var a = 10; var b = '5'; console.log(a + b);",
+          "options": [
+            {
+              "title": "510"
+            },
+            {
+              "title": "15"
+            },
+            {
+              "title": "'105'"
+            },
+            {
+              "title": "NAN"
+            }
+          ]
+        },
+        {
+          "title": "Which keyword is used to declare a variable in JavaScript?",
+          "options": [
+            {
+              "title": "let"
+            },
+            {
+              "title": "var "
+            },
+            {
+              "title": "const"
+            },
+            {
+              "title": "all of the above"
+            }
+          ]
+        },
+        {
+          "title": "What does the ===  operator do in JavaScript",
+          "options": [
+            {
+              "title": " It checks if two values are equal in value and type. "
+            },
+            {
+              "title": "It checks if two values are equal in value, but not necessarily in type."
+            },
+            {
+              "title": "It assigns a value to a variable."
+            },
+            {
+              "title": "It declares a function."
+            }
+          ]
+        },
+        {
+          "title": "What does the this keyword refer to in JavaScript?",
+          "options": [
+            {
+              "title": "The global object."
+            },
+            {
+              "title": "The object that the function is a method of. "
+            },
+            {
+              "title": " The object that was created with the new keyword."
+            },
+            {
+              "title": "It depends on how the function is called."
+            }
+          ]
+        }
+      ]
+    },
+    "JSI": {
+      "questions": [
+        {
+          "title": "What is a higher-order function in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is defined inside another function."
+            },
+            {
+              "title": "A function that takes another function as an argument or returns a function as its result."
+            },
+            {
+              "title": "A function that uses recursion to call itself."
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        },
+        {
+          "title": "What does the 'spread operator' do in JavaScript?",
+          "options": [
+            {
+              "title": "It combines arrays into a single array."
+            },
+            {
+              "title": "It spreads the elements of an array into individual arguments."
+            },
+            {
+              "title": "It creates a new array with the same elements as another array. "
+            },
+            {
+              "title": " It removes elements from an array."
+            }
+          ]
+        },
+        {
+          "title": "What is a callback function in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is called at the end of a script to perform cleanup tasks."
+            },
+            {
+              "title": "A function that is called when an event occurs, such as a button click or a keypress. "
+            },
+            {
+              "title": "A function that is passed as an argument to another function and is called by that function."
+            },
+            {
+              "title": " A function that is used to generate random numbers."
+            }
+          ]
+        },
+        {
+          "title": "What is a promise in JavaScript?",
+          "options": [
+            {
+              "title": "A function that takes another function as an argument or returns a function as its result."
+            },
+            {
+              "title": "A function that uses recursion to call itself."
+            },
+            {
+              "title": "An object that represents the eventual completion or failure of an asynchronous operation and its resulting value."
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        },
+        {
+          "title": "What is a closure in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is called when an event occurs, such as a button click or a keypress."
+            },
+            {
+              "title": " A function that is defined inside another function."
+            },
+            {
+              "title": "An object that represents the eventual completion or failure of an asynchronous operation and its resulting value."
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        }
+      ]
+    },
+    "JSA": {
+      "questions": [
+        {
+          "title": "What is the purpose of the map() method in JavaScript?",
+          "options": [
+            {
+              "title": "To create a new array with the results of calling a function on every element in the original array."
+            },
+            {
+              "title": " To modify the original array in place."
+            },
+            {
+              "title": " To remove elements from the original array."
+            },
+            {
+              "title": "To concatenate multiple arrays into a single array."
+            }
+          ]
+        },
+        {
+          "title": "What does the forEach() method do in JavaScript?",
+          "options": [
+            {
+              "title": " It is the same as the map() method, but it doesn't return a new array."
+            },
+            {
+              "title": " It executes a provided function once for each array element."
+            },
+            {
+              "title": "It sorts the elements of an array in ascending order."
+            },
+            {
+              "title": "It reverses the order of the elements in an array."
+            }
+          ]
+        },
+        {
+          "title": "What is the syntax for using the map() method in JavaScript?",
+          "options": [
+            {
+              "title": "array.map(callback)"
+            },
+            {
+              "title": "map(array, callback)"
+            },
+            {
+              "title": "callback.map(array)  "
+            },
+            {
+              "title": "callback(array).map()"
+            }
+          ]
+        },
+        {
+          "title": "What is a callback function in JavaScript?",
+          "options": [
+            {
+              "title": " A function that is called by another function, usually as a parameter."
+            },
+            {
+              "title": "A function that is called by itself."
+            },
+            {
+              "title": "A function that is used to create a new array from an existing array."
+            },
+            {
+              "title": "A function that is used to modify the original array."
+            }
+          ]
+        },
+        {
+          "title": "What does the filter() method do in JavaScript?",
+          "options": [
+            {
+              "title": "It creates a new array with the results of calling a function on every element in the original array."
+            },
+            {
+              "title": " It modifies the original array in place."
+            },
+            {
+              "title": " It removes elements from the original array based on a condition."
+            },
+            {
+              "title": "It concatenates multiple arrays into a single array."
             }
           ]
         }
@@ -1062,1055 +1697,1702 @@
     "CB": {
       "questions": [
         {
-          "title": "What is the correct syntax for declaring an integer variable named 'num'?",
+          "title": "What is the correct syntax for declaring an integer variable named 'num' ?",
           "options": [
             {
               "title": "int num",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "integer num"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "int num()"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "num int"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following arithmetic operators performs exponentiation in C?",
           "options": [
             {
-              "title": "September 1998"
+              "title": " + "
             },
             {
-              "title": "October 1999"
+              "title": " - "
             },
             {
-              "title": "September 1995",
+              "title": " * "
+            },
+            {
+              "title": " ** ",
               "correct": true
-            },
-            {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the output of the following code snippet ? [int a = 5; printf(%d, ++a);]  ",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "5"
             },
             {
-              "title": "Netscape",
+              "title": "6",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "Error"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": " Undefined behavior"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "Which of the following is not a valid C data type?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "float"
             },
             {
-              "title": "ES2021",
+              "title": "double"
+            },
+            {
+              "title": "decimal",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "char"
+            }
+          ]
+        },
+        {
+          "title": "What is the correct way to declare a constant integer in C?",
+          "options": [
+            {
+              "title": "const int num = 5;",
+              "correct": true
             },
             {
-              "title": "ES7"
+              "title": "const int = 5;"
             },
             {
-              "title": "ES8"
+              "title": " int const num = 5;"
             },
             {
-              "title": "ES2022"
+              "title": " int num const = 5;"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int a = 10; while(a > 0) {printf(%d, a); a-- }]",
+          "options": [
+            {
+              "title": "10 9 8 7 6 5 4 3 2 1",
+              "correct": true
             },
             {
-              "title": "ES21"
+              "title": "1 2 3 4 5 6 7 8 9 10"
             },
             {
-              "title": "ES3"
+              "title": "10 8 6 4 2"
             },
             {
-              "title": "ES9"
+              "title": "Error"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid way to initialize an array in C? ",
+          "options": [
+            {
+              "title": " int arr[5] = {1, 2, 3, 4, 5};"
             },
             {
-              "title": "ES2020"
+              "title": "int arr[] = {1, 2, 3};"
+            },
+            {
+              "title": "int arr[3] = {1, 2};",
+              "correct": true
+            },
+            {
+              "title": "int arr[3] = {0};"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [for(int i=0; i<=5; i++) { if(i%2 == 0) continue; printf(%d, i); }]",
+          "options": [
+            {
+              "title": "0 2 4"
+            },
+            {
+              "title": "1 3 5",
+              "correct": true
+            },
+            {
+              "title": " 1 3"
+            },
+            {
+              "title": "2 4"
+            }
+          ]
+        },
+        {
+          "title": "What is the correct syntax for defining a function named 'sum' that takes two integer arguments and returns their sum?",
+          "options": [
+            {
+              "title": "int sum(int a, int b) { return a+b; }",
+              "correct": true
+            },
+            {
+              "title": "sum(int a, int b) { return a+b; }"
+            },
+            {
+              "title": "int sum(int a+b) { return a+b; }"
+            },
+            {
+              "title": " int sum(a, b) { return a+b; }"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 10; if(a < b) { printf(%d, a);} else { printf(%d, b);} ]",
+          "options": [
+            {
+              "title": " 5",
+              "correct": true
+            },
+            {
+              "title": "10"
+            },
+            {
+              "title": "15"
+            },
+            {
+              "title": "Error"
             }
           ]
         }
       ]
     },
-    "5Xy-t8k_M4A": {
+    "CI": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following is not a valid C data type?",
           "options": [
             {
-              "title": "with var",
+              "title": "int"
+            },
+            {
+              "title": "float"
+            },
+            {
+              "title": "char"
+            },
+            {
+              "title": "double int",
               "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 3; printf(%d, a + b * 2);]",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "11",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "13"
             },
             {
-              "title": "August 1990"
+              "title": "16"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "21"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following operators has the highest precedence in C? ",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "+"
             },
             {
-              "title": "Netscape",
+              "title": "%"
+            },
+            {
+              "title": "&&",
               "correct": true
             },
             {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "="
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the output of the following code snippet? [ int a = 10; if(a > 5 && a < 15) { printf( Valid);} else { printf(Invalid);}]",
           "options": [
             {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
+              "title": "Valid",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "Invalid"
             },
             {
-              "title": "ES7"
+              "title": "Error"
             },
             {
-              "title": "ES8"
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is the correct syntax for declaring an array in C?",
+          "options": [
+            {
+              "title": " int a[10];",
+              "correct": true
             },
             {
-              "title": "ES2022"
+              "title": "a[10] int;"
             },
             {
-              "title": "ES21"
+              "title": " int []a = {1, 2, 3, 4, 5};"
             },
             {
-              "title": "ES3"
+              "title": " a[] int = {1, 2, 3, 4, 5};"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int x = 5, y = 10; if(x > y) { printf(x is greater than y);} else { printf(y is greater than x);} ]",
+          "options": [
+            {
+              "title": "x is greater than y"
             },
             {
-              "title": "ES9"
+              "title": "y is greater than x",
+              "correct": true
             },
             {
-              "title": "ES2020"
+              "title": "Error"
+            },
+            {
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid C operator? ",
+          "options": [
+            {
+              "title": "=="
+            },
+            {
+              "title": "+"
+            },
+            {
+              "title": "$",
+              "correct": true
+            },
+            {
+              "title": "*"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int n = 5; for(int i=0; i<n; i++) { printf(%d , i); } ] ",
+          "options": [
+            {
+              "title": "0 1 2 3 4",
+              "correct": true
+            },
+            {
+              "title": "1 2 3 4 5"
+            },
+            {
+              "title": "1 3 5 7 9"
+            },
+            {
+              "title": "Error"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a valid way to initialize a variable in C?",
+          "options": [
+            {
+              "title": "int a = 10;"
+            },
+            {
+              "title": "int a; a = 10;"
+            },
+            {
+              "title": " int a = {10};"
+            },
+            {
+              "title": " int a[10];",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int x = 5; x++; printf(%d, x);]",
+          "options": [
+            {
+              "title": "5"
+            },
+            {
+              "title": "3"
+            },
+            {
+              "title": "6",
+              "correct": true
+            },
+            {
+              "title": "4"
             }
           ]
         }
       ]
     },
-    "WC-g0JtEIwM": {
+    "CA": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following statements about the static keyword in C is true?",
           "options": [
             {
-              "title": "with var",
+              "title": "The static keyword can only be used with functions."
+            },
+            {
+              "title": "The static keyword can be used to create variables with a persistent value.",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "The static keyword can be used to limit the scope of a variable to a function."
             },
             {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "The static keyword can be used to declare variables in header files."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following statements about the preprocessor in C is true?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "The preprocessor is responsible for converting C code into machine code."
             },
             {
-              "title": "October 1999"
+              "title": "The preprocessor is a separate program that runs before the compiler."
             },
             {
-              "title": "September 1995",
+              "title": " The preprocessor can be used to define macros and include header files.",
               "correct": true
             },
             {
-              "title": "September 1993"
-            },
-            {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "The preprocessor can be used to declare variables and functions."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is the output of the following code snippet? [ int a[] = {10, 20, 30, 40, 50}; int *p1 = &a[1], *p2 = &a[4]; printf(%d, p2 - p1);]",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "3"
             },
             {
-              "title": "Netscape",
+              "title": "4",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "5"
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "2"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the output of the following code snippet? [ int a = 10; if(a > 5 && a < 15) { printf( Valid);} else { printf(Invalid);}]",
           "options": [
             {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
+              "title": "Valid",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "Invalid"
             },
             {
-              "title": "ES7"
+              "title": "Error"
             },
             {
-              "title": "ES8"
+              "title": "Undefined behavior"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following statements about pointers in C is true?",
+          "options": [
+            {
+              "title": "Pointers can be used to create self-referential structures like linked lists.",
+              "correct": true
             },
             {
-              "title": "ES2022"
+              "title": "Pointers can only be used to access and manipulate primitive data types."
             },
             {
-              "title": "ES21"
+              "title": "Pointers cannot be used with the const keyword."
             },
             {
-              "title": "ES3"
+              "title": "Pointers are automatically set to NULL when they are declared."
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [int a = 10; int *p = &a; *p = *p + 1; printf(%d %d, a, *p); ]",
+          "options": [
+            {
+              "title": "10 10"
             },
             {
-              "title": "ES9"
+              "title": "11 10"
             },
             {
-              "title": "ES2020"
+              "title": "11 11",
+              "correct": true
+            },
+            {
+              "title": "10 11"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following statements about function pointers in C is true? ",
+          "options": [
+            {
+              "title": "Function pointers store the address of a function."
+            },
+            {
+              "title": "Function pointers can be used to call a function indirectly."
+            },
+            {
+              "title": "Function pointers can be passed as arguments to other functions."
+            },
+            {
+              "title": "All of the above.",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 3, c = 2; int *p1 = &a, *p2 = &b, *p3 = &c; *p1 = *p2 + *p3; printf(%d %d %d, a, b, c);] ",
+          "options": [
+            {
+              "title": "5 3 2"
+            },
+            {
+              "title": "3 3 2"
+            },
+            {
+              "title": "5 5 2"
+            },
+            {
+              "title": "3 5 2",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int a = 5, b = 10; int *ptr = &a; *ptr = 15; ptr = &b; *b = *ptr - 5; printf(%d %d, a, b); ]",
+          "options": [
+            {
+              "title": "15 5"
+            },
+            {
+              "title": "5 5"
+            },
+            {
+              "title": "15 10",
+              "correct": true
+            },
+            {
+              "title": "5 10"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a correct syntax for a function pointer declaration in C?",
+          "options": [
+            {
+              "title": "int (*fptr) (int a, int b);",
+              "correct": true
+            },
+            {
+              "title": "(*fptr) int (int a, int b);"
+            },
+            {
+              "title": "int fptr (int a, int b) ();"
+            },
+            {
+              "title": "fptr int (int a, int b) ();"
             }
           ]
         }
       ]
     },
-    "CHnTTzD1pAQ": {
+    "CPB": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is C++?",
           "options": [
             {
-              "title": "with var",
+              "title": "A programming language",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "A markup language"
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "A scripting language"
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "An operating system"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "Which of the following is a valid C++ identifier?",
           "options": [
             {
-              "title": "September 1998"
+              "title": "1variable "
             },
             {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "variable_1",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": " variable-1"
             },
             {
-              "title": "August 1990"
-            },
-            {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "variable 1"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following is not a primitive data type in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "int"
             },
             {
-              "title": "Netscape",
+              "title": "char"
+            },
+            {
+              "title": "string",
               "correct": true
             },
             {
-              "title": "Jack Ma"
-            },
-            {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "float"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the operator used for assigning a value to a variable in C++?",
           "options": [
             {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
+              "title": "=",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "=="
             },
             {
-              "title": "ES7"
+              "title": "! ="
             },
             {
-              "title": "ES8"
+              "title": "+="
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? [ int x = 5; int y = 10; cout << (x < y); ]",
+          "options": [
+            {
+              "title": "0"
             },
             {
-              "title": "ES2022"
+              "title": "1"
             },
             {
-              "title": "ES21"
+              "title": "5"
             },
             {
-              "title": "ES3"
+              "title": "10",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int i = 0; while (i < 5) { cout << i << ; i++; }",
+          "options": [
+            {
+              "title": "0 1 2 3 4",
+              "correct": true
             },
             {
-              "title": "ES9"
+              "title": " 1 2 3 4 5"
             },
             {
-              "title": "ES2020"
+              "title": "0 1 2 3 4 5 "
+            },
+            {
+              "title": "1 2 3 4 5 6"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a valid way to declare a C++ function that takes no parameters and returns an integer? ",
+          "options": [
+            {
+              "title": "int myFunction() {}"
+            },
+            {
+              "title": "void myFunction() {}"
+            },
+            {
+              "title": "int myFunction(void) {}",
+              "correct": true
+            },
+            {
+              "title": "void myFunction(int) {} "
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is a valid way to declare an array of integers with 10 elements in C++?",
+          "options": [
+            {
+              "title": " int array(10);"
+            },
+            {
+              "title": " int array[10];",
+              "correct": true
+            },
+            {
+              "title": " int array{10};"
+            },
+            {
+              "title": " int array(10];"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int myArray[3] = {1, 2, 3}; cout << myArray[1];",
+          "options": [
+            {
+              "title": "1"
+            },
+            {
+              "title": "2",
+              "correct": true
+            },
+            {
+              "title": "3"
+            },
+            {
+              "title": "0"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? int x = 5; int *ptr = &x; cout << *ptr;",
+          "options": [
+            {
+              "title": "5",
+              "correct": true
+            },
+            {
+              "title": "ptr"
+            },
+            {
+              "title": "&x"
+            },
+            {
+              "title": "None of them"
             }
           ]
         }
       ]
     },
-    "PHy8h0BixKA": {
+    "CPI": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is the difference between pass-by-value and pass-by-reference in C++?",
           "options": [
             {
-              "title": "with var",
+              "title": "Pass-by-value creates a copy of the argument, while pass-by-reference does not.",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": "Pass-by-reference creates a copy of the argument, while pass-by-value does not."
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "Pass-by-value does not allow the function to modify the original argument, while pass-by-reference does."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": "Pass-by-reference does not allow the function to modify the original argument, while pass-by-value does."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the difference between a pointer and a reference in C++?",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": " A pointer can be null, while a reference cannot.",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "A pointer can be re-assigned, while a reference cannot."
             },
             {
-              "title": "August 1990"
+              "title": "A pointer can be used to iterate over an array, while a reference cannot."
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "All of the above."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is operator overloading in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
+              "title": "Defining a new operator in C++."
             },
             {
-              "title": "Netscape",
+              "title": "Changing the behavior of an existing operator in C++.",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "Both A and B."
             },
             {
-              "title": "Nayok Razzaq"
-            },
-            {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "None of the above."
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is a constructor in C++?",
           "options": [
             {
-              "title": "ES2020"
+              "title": " A member function of a class that is automatically called when an object of the class is created."
             },
             {
-              "title": "ES2021",
+              "title": " A member function of a class that is used to initialize the object's data members."
+            },
+            {
+              "title": "Both A and B.",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a class and an object in C++?",
+          "options": [
+            {
+              "title": "A class is a blueprint for an object, while an object is an instance of a class.",
+              "correct": true
             },
             {
-              "title": "ES7"
+              "title": "A class is a variable, while an object is a function."
             },
             {
-              "title": "ES8"
+              "title": "A class is a function, while an object is a variable."
             },
             {
-              "title": "ES2022"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is inheritance in C++?",
+          "options": [
+            {
+              "title": "A mechanism that allows a class to inherit properties and behavior from another class.",
+              "correct": true
             },
             {
-              "title": "ES21"
+              "title": "A mechanism that allows a class to override properties and behavior of another class."
             },
             {
-              "title": "ES3"
+              "title": "Both A and B."
             },
             {
-              "title": "ES9"
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is polymorphism in C++?   ",
+          "options": [
+            {
+              "title": "A mechanism that allows a derived class to have multiple base classes."
             },
             {
-              "title": "ES2020"
+              "title": " A mechanism that allows a function to take arguments of different types."
+            },
+            {
+              "title": "A mechanism that allows objects of different classes to be treated as if they were of the same class.",
+              "correct": true
+            },
+            {
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a virtual function and a pure virtual function in C++? ",
+          "options": [
+            {
+              "title": "A virtual function has a default implementation, while a pure virtual function does not."
+            },
+            {
+              "title": "A virtual function can be overridden, while a pure virtual function must be overridden.",
+              "correct": true
+            },
+            {
+              "title": "Both A and B."
+            },
+            {
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a namespace in C++?",
+          "options": [
+            {
+              "title": "A way to group related functions and classes together."
+            },
+            {
+              "title": "A way to avoid naming conflicts between different functions and classes."
+            },
+            {
+              "title": "Both A and B.",
+              "correct": true
+            },
+            {
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a template in C++?",
+          "options": [
+            {
+              "title": "A mechanism that allows a function or class to work with any data type.",
+              "correct": true
+            },
+            {
+              "title": "A mechanism that allows a function or class to work with a specific data type."
+            },
+            {
+              "title": "A mechanism that allows a function or class to work with both specific and unspecified data types."
+            },
+            {
+              "title": "None of the above."
             }
           ]
         }
       ]
     },
-    "2C5834qx0sA": {
+    "CPA": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "What is the difference between a template class and a regular class in C++?",
           "options": [
             {
-              "title": "with var",
+              "title": "A template class can work with any data type, while a regular class can only work with specific data types.",
               "correct": true
             },
             {
-              "title": "with let",
-              "correct": true
+              "title": " A template class is a class that uses templates, while a regular class does not."
             },
             {
-              "title": "with const",
-              "correct": true
+              "title": "Both A and B."
             },
             {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
+              "title": " None of the above."
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the difference between a template function and a regular function in C++?",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "A template function can work with any data type, while a regular function can only work with specific data types.",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "A template function is a function that uses templates, while a regular function does not."
             },
             {
-              "title": "August 1990"
+              "title": "Both A and B."
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "All of the above."
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "What is an abstract class in C++?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "A class that cannot be instantiated and serves as a base class for other classes.",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "A class that can be instantiated and serves as a base class for other classes."
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "A class that has no methods."
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "None of the above."
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is a virtual destructor in C++?",
           "options": [
             {
-              "title": "ES2020"
-            },
-            {
-              "title": "ES2021",
+              "title": "  A destructor that is declared as virtual in a base class.",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": "A destructor that is declared as pure virtual in a base class."
             },
             {
-              "title": "ES7"
+              "title": "Both A and B."
             },
             {
-              "title": "ES8"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a friend function in C++?",
+          "options": [
+            {
+              "title": "A function that is declared in a class and has access to the private and protected members of the class."
             },
             {
-              "title": "ES2022"
+              "title": "A function that is declared outside a class but has access to the private and protected members of the class.",
+              "correct": true
             },
             {
-              "title": "ES21"
+              "title": "A function that is declared as a member of a class but does not have access to the private and protected members of the class."
             },
             {
-              "title": "ES3"
+              "title": " None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is the difference between a constant pointer and a pointer to a constant in C++?",
+          "options": [
+            {
+              "title": "A constant pointer cannot be changed, while a pointer to a constant can be changed.",
+              "correct": true
             },
             {
-              "title": "ES9"
+              "title": " A pointer to a constant cannot be changed, while a constant pointer can be changed."
             },
             {
-              "title": "ES2020"
+              "title": "Both A and B."
+            },
+            {
+              "title": "None of the above."
+            }
+          ]
+        },
+        {
+          "title": "What is a move constructor in C++?",
+          "options": [
+            {
+              "title": " A constructor that is used to move an object from one memory location to another.",
+              "correct": true
+            },
+            {
+              "title": " A constructor that is used to create a copy of an object."
+            },
+            {
+              "title": "Both A and B."
+            },
+            {
+              "title": "None of the above."
             }
           ]
         }
       ]
     },
-    "qImH1bFubW4": {
+    "JB": {
       "questions": [
         {
-          "title": "How to declare JavaScript variables?",
+          "title": "Which of the following is not a primitive data type in Java?",
           "options": [
             {
-              "title": "with var",
+              "title": "boolean"
+            },
+            {
+              "title": "char"
+            },
+            {
+              "title": "int."
+            },
+            {
+              "title": " string",
               "correct": true
-            },
-            {
-              "title": "with let",
-              "correct": true
-            },
-            {
-              "title": "with const",
-              "correct": true
-            },
-            {
-              "title": "with variable"
-            },
-            {
-              "title": "with declare"
-            },
-            {
-              "title": "with new"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "with string"
-            },
-            {
-              "title": "with boolean"
-            },
-            {
-              "title": "with nothing"
             }
           ]
         },
         {
-          "title": "When was JavaScript invented?",
+          "title": "What is the output of the following code snippet? int x = 3; int y = 5; System.out.println(x + y + total);",
           "options": [
             {
-              "title": "September 1998"
-            },
-            {
-              "title": "October 1999"
-            },
-            {
-              "title": "September 1995",
+              "title": "8total",
               "correct": true
             },
             {
-              "title": "September 1993"
+              "title": "35total"
             },
             {
-              "title": "August 1990"
+              "title": " 53total"
             },
             {
-              "title": "January 1995"
-            },
-            {
-              "title": "with number"
-            },
-            {
-              "title": "December 1995"
-            },
-            {
-              "title": "March 1996"
-            },
-            {
-              "title": "January 1970"
+              "title": "total8"
             }
           ]
         },
         {
-          "title": "Who or which company created JavaScript?",
+          "title": "Which of the following is a valid way to declare and initialize an array in Java?",
           "options": [
             {
-              "title": "Jordan Walke"
-            },
-            {
-              "title": "Netscape",
+              "title": "int[] myArray = {1, 2, 3};",
               "correct": true
             },
             {
-              "title": "Jack Ma"
+              "title": "int myArray[] = new int[] {1, 2, 3};"
             },
             {
-              "title": "Nayok Razzaq"
+              "title": "int[] myArray = new int[3]{1, 2, 3};"
             },
             {
-              "title": "Takla Rubel"
-            },
-            {
-              "title": "Tarzan"
-            },
-            {
-              "title": "Brendan Eich",
-              "correct": true
-            },
-            {
-              "title": "Mark Zuckerburg"
-            },
-            {
-              "title": "Bill Gates"
-            },
-            {
-              "title": "Steve Jobs"
+              "title": "All of the above"
             }
           ]
         },
         {
-          "title": "What is the latest version of ECMAScript",
+          "title": "What is the correct way to create an instance of a class in Java?",
           "options": [
             {
-              "title": "ES2020"
+              "title": "Class myClass = new MyClass;"
             },
             {
-              "title": "ES2021",
+              "title": "MyClass myClass = new MyClass();",
               "correct": true
             },
             {
-              "title": "ES6"
+              "title": " myClass = new MyClass();"
             },
             {
-              "title": "ES7"
+              "title": "new MyClass myClass();"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a type of loop in Java?",
+          "options": [
+            {
+              "title": "for loop"
             },
             {
-              "title": "ES8"
+              "title": " while loop"
             },
             {
-              "title": "ES2022"
+              "title": "do-while loop"
             },
             {
-              "title": "ES21"
+              "title": "switch loop",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the access level of a class member if it is declared as private?",
+          "options": [
+            {
+              "title": "public"
             },
             {
-              "title": "ES3"
+              "title": "protected"
             },
             {
-              "title": "ES9"
+              "title": "private",
+              "correct": true
             },
             {
-              "title": "ES2020"
+              "title": "default"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a keyword in Java?",
+          "options": [
+            {
+              "title": " if"
+            },
+            {
+              "title": "while"
+            },
+            {
+              "title": "switch"
+            },
+            {
+              "title": "main",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    },
+    "PB": {
+      "questions": [
+        {
+          "title": "Which of the following is not a primitive data type in Python?",
+          "options": [
+            {
+              "title": "string"
+            },
+            {
+              "title": "char"
+            },
+            {
+              "title": "int."
+            },
+            {
+              "title": "boolean ",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the correct way to create a function in Python?",
+          "options": [
+            {
+              "title": "function myFunction():"
+            },
+            {
+              "title": "def myFunction():",
+              "correct": true
+            },
+            {
+              "title": "def function myFunction():"
+            },
+            {
+              "title": " function def myFunction():"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a type of loop in Python?",
+          "options": [
+            {
+              "title": "for loop"
+            },
+            {
+              "title": "while loop"
+            },
+            {
+              "title": "do-while loop",
+              "correct": true
+            },
+            {
+              "title": "All of the above are types of loops in Python"
+            }
+          ]
+        },
+        {
+          "title": "What is the access level of a class member if it is declared as private in Python?",
+          "options": [
+            {
+              "title": "public"
+            },
+            {
+              "title": "protected"
+            },
+            {
+              "title": " private",
+              "correct": true
+            },
+            {
+              "title": "default"
+            }
+          ]
+        },
+        {
+          "title": "Which of the following is not a keyword in Python?",
+          "options": [
+            {
+              "title": "if"
+            },
+            {
+              "title": " while"
+            },
+            {
+              "title": "switch",
+              "correct": true
+            },
+            {
+              "title": "for"
+            }
+          ]
+        },
+        {
+          "title": "What is the output of the following code snippet? i = 5 print(i) i += 1 print(i)",
+          "options": [
+            {
+              "title": "5 6",
+              "correct": true
+            },
+            {
+              "title": "6 6"
+            },
+            {
+              "title": "5 5"
+            },
+            {
+              "title": "6 5"
+            }
+          ]
+        }
+      ]
+    },
+    "DSA": {
+      "questions": [
+        {
+          "title": "What is a data structure?",
+          "options": [
+            {
+              "title": " A way to store and organize data",
+              "correct": true
+            },
+            {
+              "title": "A way to input data"
+            },
+            {
+              "title": "A way to output data"
+            },
+            {
+              "title": "A way to sort data"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is more efficient for inserting and deleting elements?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List",
+              "correct": true
+            },
+            {
+              "title": "Both are equally efficient"
+            },
+            {
+              "title": " None of the above"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure can be resized dynamically?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List",
+              "correct": true
+            },
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Queue"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement recursion?",
+          "options": [
+            {
+              "title": "Stack ",
+              "correct": true
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Linked List"
+            },
+            {
+              "title": "Tree"
+            }
+          ]
+        },
+        {
+          "title": "Which algorithm is used to sort elements in ascending order?",
+          "options": [
+            {
+              "title": "Quick sort"
+            },
+            {
+              "title": " Merge sort"
+            },
+            {
+              "title": "Bubble sort",
+              "correct": true
+            },
+            {
+              "title": "Selection sort"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement a priority queue?",
+          "options": [
+            {
+              "title": "Stack"
+            },
+            {
+              "title": "Queue"
+            },
+            {
+              "title": "Heap",
+              "correct": true
+            },
+            {
+              "title": "Linked List"
+            }
+          ]
+        },
+        {
+          "title": "Which data structure is used to implement a binary tree?",
+          "options": [
+            {
+              "title": "Array"
+            },
+            {
+              "title": "Linked List",
+              "correct": true
+            },
+            {
+              "title": "heap"
+            },
+            {
+              "title": "stack"
+            }
+          ]
+        }
+      ]
+    },
+    "JSB": {
+      "questions": [
+        {
+          "title": "Which of the following is NOT a primitive data type in JavaScript?",
+          "options": [
+            {
+              "title": "Number"
+            },
+            {
+              "title": "String"
+            },
+            {
+              "title": "Boolean"
+            },
+            {
+              "title": "Object",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What is the result of the following code? var a = 10; var b = '5'; console.log(a + b);",
+          "options": [
+            {
+              "title": "510"
+            },
+            {
+              "title": "15"
+            },
+            {
+              "title": "'105'",
+              "correct": true
+            },
+            {
+              "title": "NAN"
+            }
+          ]
+        },
+        {
+          "title": "Which keyword is used to declare a variable in JavaScript?",
+          "options": [
+            {
+              "title": "let"
+            },
+            {
+              "title": "var "
+            },
+            {
+              "title": "const"
+            },
+            {
+              "title": "all of the above",
+              "correct": true
+            }
+          ]
+        },
+        {
+          "title": "What does the ===  operator do in JavaScript",
+          "options": [
+            {
+              "title": " It checks if two values are equal in value and type. ",
+              "correct": true
+            },
+            {
+              "title": "It checks if two values are equal in value, but not necessarily in type."
+            },
+            {
+              "title": "It assigns a value to a variable."
+            },
+            {
+              "title": "It declares a function."
+            }
+          ]
+        },
+        {
+          "title": "What does the this keyword refer to in JavaScript?",
+          "options": [
+            {
+              "title": "The global object."
+            },
+            {
+              "title": "The object that the function is a method of. "
+            },
+            {
+              "title": " The object that was created with the new keyword."
+            },
+            {
+              "title": "It depends on how the function is called.",
+              "correct": true
+            }
+          ]
+        }
+      ]
+    },
+    "JSI": {
+      "questions": [
+        {
+          "title": "What is a higher-order function in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is defined inside another function."
+            },
+            {
+              "title": "A function that takes another function as an argument or returns a function as its result.",
+              "correct": true
+            },
+            {
+              "title": "A function that uses recursion to call itself."
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        },
+        {
+          "title": "What does the 'spread operator' do in JavaScript?",
+          "options": [
+            {
+              "title": "It combines arrays into a single array."
+            },
+            {
+              "title": "It spreads the elements of an array into individual arguments.",
+              "correct": true
+            },
+            {
+              "title": "It creates a new array with the same elements as another array. "
+            },
+            {
+              "title": " It removes elements from an array."
+            }
+          ]
+        },
+        {
+          "title": "What is a callback function in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is called at the end of a script to perform cleanup tasks."
+            },
+            {
+              "title": "A function that is called when an event occurs, such as a button click or a keypress. "
+            },
+            {
+              "title": "A function that is passed as an argument to another function and is called by that function.",
+              "correct": true
+            },
+            {
+              "title": " A function that is used to generate random numbers."
+            }
+          ]
+        },
+        {
+          "title": "What is a promise in JavaScript?",
+          "options": [
+            {
+              "title": "A function that takes another function as an argument or returns a function as its result."
+            },
+            {
+              "title": "A function that uses recursion to call itself."
+            },
+            {
+              "title": "An object that represents the eventual completion or failure of an asynchronous operation and its resulting value.",
+              "correct": true
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        },
+        {
+          "title": "What is a closure in JavaScript?",
+          "options": [
+            {
+              "title": "A function that is called when an event occurs, such as a button click or a keypress."
+            },
+            {
+              "title": " A function that is defined inside another function.",
+              "correct": true
+            },
+            {
+              "title": "An object that represents the eventual completion or failure of an asynchronous operation and its resulting value."
+            },
+            {
+              "title": "A function that modifies the behavior of another function by wrapping it in another function."
+            }
+          ]
+        }
+      ]
+    },
+    "JSA": {
+      "questions": [
+        {
+          "title": "What is the purpose of the map() method in JavaScript?",
+          "options": [
+            {
+              "title": "To create a new array with the results of calling a function on every element in the original array.",
+              "correct": true
+            },
+            {
+              "title": " To modify the original array in place."
+            },
+            {
+              "title": " To remove elements from the original array."
+            },
+            {
+              "title": "To concatenate multiple arrays into a single array."
+            }
+          ]
+        },
+        {
+          "title": "What does the forEach() method do in JavaScript?",
+          "options": [
+            {
+              "title": " It is the same as the map() method, but it doesn't return a new array."
+            },
+            {
+              "title": " It executes a provided function once for each array element.",
+              "correct": true
+            },
+            {
+              "title": "It sorts the elements of an array in ascending order."
+            },
+            {
+              "title": "It reverses the order of the elements in an array."
+            }
+          ]
+        },
+        {
+          "title": "What is the syntax for using the map() method in JavaScript?",
+          "options": [
+            {
+              "title": "array.map(callback)",
+              "correct": true
+            },
+            {
+              "title": "map(array, callback)"
+            },
+            {
+              "title": "callback.map(array)  "
+            },
+            {
+              "title": "callback(array).map()"
+            }
+          ]
+        },
+        {
+          "title": "What is a callback function in JavaScript?",
+          "options": [
+            {
+              "title": " A function that is called by another function, usually as a parameter.",
+              "correct": true
+            },
+            {
+              "title": "A function that is called by itself."
+            },
+            {
+              "title": "A function that is used to create a new array from an existing array."
+            },
+            {
+              "title": "A function that is used to modify the original array."
+            }
+          ]
+        },
+        {
+          "title": "What does the filter() method do in JavaScript?",
+          "options": [
+            {
+              "title": "It creates a new array with the results of calling a function on every element in the original array."
+            },
+            {
+              "title": " It modifies the original array in place."
+            },
+            {
+              "title": " It removes elements from the original array based on a condition.",
+              "correct": true
+            },
+            {
+              "title": "It concatenates multiple arrays into a single array."
             }
           ]
         }
